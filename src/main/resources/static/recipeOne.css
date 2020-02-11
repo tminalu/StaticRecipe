@@ -1,0 +1,98 @@
+h1 {
+    font-size: 320%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: gray;
+    border-left: 0;
+    border-right: 0;
+}
+
+#ingredients {
+    text-align: left;
+    margin-left: 30%;
+    padding: 3%;
+}
+
+#directions {
+    text-align: left;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: grey;
+    width: 100%;
+    margin: 3% 15% 3% 8%;
+    border-left: 30%;
+    border-right: 0;
+    padding: 1%;
+
+}
+
+#howTo {
+    color: blue;
+}
+
+.steps {
+    padding: 2%;
+    width: 90%;
+}
+
+#tips {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    width: 60%;
+    text-align: justify;
+    padding-left: 20%;
+}
+
+.tipList {
+    color: grey;
+    margin-left: 6%;
+}
+
+#pudding {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: grey;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 3.5%;
+}
+
+#wikipedia {
+    padding-bottom: 1.4%;
+}
+
+
+#footer {
+    margin: 4% 7%;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+
+/* images - description goes here */
+
+#yummy {
+    width: 45%;
+    height: 45%;
+    border-style: none;
+    border-radius: 5%;
+}
+
+#yumAlso {
+
+    width: 35%;
+    height: 35%;
+    border-style: none;
+    border-radius: 30%;
+    border-color: #FFFFFF;
+    border-width: 10%;
+    padding-bottom: 1.5%;
+}
+
+

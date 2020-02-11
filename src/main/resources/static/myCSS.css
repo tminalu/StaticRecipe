@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    border: 40px solid #4F42B5;
+    border-right-color: transparent;
+}
+
+#Tableofcontents {
+    text-decoration: underline;
+    color: #6600CC;
+}
+
+/*table stuff*/
+
+
+
+a:hover{
+    cursor: grab;
+    color: #4F42B5;
+}
+
+
+#hover-content {
+    display:none;
+    width: 50%;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#hover-me:hover #hover-content {
+    display:block;
+}
+
+/*end table stuff*/
+
+.ketotitle {
+    border: 2px solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #CC9900;
+    border-right-color: #CC9900;
+    font-family: 'Gravitas One', cursive;
+    color: #333300;
+}
+
+
+article {
+    margin-left: 15px;
+}
+h1 {
+    text-align: center;
+}
+h2, h4 {
+    margin-left: 20px;
+}
+img {
+    margin-left: 70px;
+    border: 2px dotted #333300;
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+html, body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    line-height: normal;
+}
+
+h2 {
+    font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.tablelist th {
+    border-bottom: 1px solid #333300;
+    padding-right: 2em;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+.tablelist td {
+    text-align: left;
+    border-bottom: 1px solid #333300;
+}
+
+.Rice Pudding > h3 {
+    color: orange;
+}
+
+.Rice Pudding ul {
+    width: 15em;
+    padding: 10px 30px 10px 25px;
+}
+
+.fatbomb h3 {
+    color: #CC9900;
+}
+
+.fatbomb ul {
+    border-style: ridge;
+    width: 15em;
+    padding: 10px 30px 10px 25px;
+}
+
+.ketochow h3 {
+    color: #CC9900;
+}
+.ketochow ul {
+    border-style: ridge;
+    padding: 10px 30px 10px 25px;
+}
